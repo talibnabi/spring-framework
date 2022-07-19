@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
     <bean id="notification" class="az.spring.demo.main.Notification">
+        <!--        <constructor-arg ref="email"/>-->
+        <!--        <constructor-arg ref="employee"/>-->
         <property name="message" ref="email"/>
+        <property name="employee" ref="employee"/>
+
     </bean>
     <bean id="sms" class="az.spring.demo.impl.Sms"/>
     <bean id="email" class="az.spring.demo.impl.Email"/>
+    <bean id="employee" class="az.spring.demo.impl.Employee">
+        <property name="name" value="Alisa"/>
+        <property name="surname" value="Aslan"/>
+        <property name="age" value="19"/>
+        <property name="salary" value="2000"/>
+        <property name="hammers">
+            <list>
+                <ref bean="hammer"/>
+                <ref bean="hammer2"/>
+                <ref bean="hammer3"/>
+                <!--                <value>small</value>-->
+                <!--                <value>medium</value>-->
+                <!--                <value>big</value>-->
+            </list>
+        </property>
+    </bean>
+    <bean id="hammer" class="az.spring.demo.impl.Hammer">
+        <property name="name" value="Small"/>
+        <property name="version" value="190"/>
+    </bean>
+    <bean id="hammer2" class="az.spring.demo.impl.Hammer">
+        <property name="name" value="Medium"/>
+        <property name="version" value="200"/>
+    </bean>
+    <bean id="hammer3" class="az.spring.demo.impl.Hammer">
+        <property name="name" value="Big"/>
+        <property name="version" value="300"/>
+    </bean>
 </beans>

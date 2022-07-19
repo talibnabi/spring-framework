@@ -8,6 +8,5 @@ public class Application {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
         Notification notification = applicationContext.getBean("notification", Notification.class);
         notification.alert();
-        notification.alert();
     }
 }
