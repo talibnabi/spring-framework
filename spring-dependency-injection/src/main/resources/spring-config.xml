@@ -2,9 +2,15 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
     <bean id="notification" class="az.spring.demo.main.Notification">
-        <property name="message" ref="email"/>
+        <constructor-arg ref="sms"/>
+        <!--        <property name="message" ref="sms"/>-->
     </bean>
+
     <bean id="sms" class="az.spring.demo.impl.Sms"/>
     <bean id="email" class="az.spring.demo.impl.Email"/>
+    <bean id="facebookMessage" class="az.spring.demo.impl.FacebookMessage"/>
+    <bean id="instagramMessage" class="az.spring.demo.impl.InstagramMessage"/>
+    <bean id="tinderAppMessage" class="az.spring.demo.impl.TinderAppMessage"/>
 </beans>

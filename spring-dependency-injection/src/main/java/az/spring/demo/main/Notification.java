@@ -1,14 +1,17 @@
 package az.spring.demo.main;
 
+import az.spring.demo.impl.Email;
+import az.spring.demo.impl.Sms;
 import az.spring.demo.inter.Message;
 
 public class Notification {
     private Message message;
-
+    
 //    constructor injection
-//    public Notification(Message message) {
-//        this.message = message;
-//    }
+    public Notification(Message message) {
+        this.message = message;
+    }
+
 
     //setter injection
     public void setMessage(Message message) {
