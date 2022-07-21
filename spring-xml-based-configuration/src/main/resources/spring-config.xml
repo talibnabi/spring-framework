@@ -1,42 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
-    <bean id="notification" class="az.spring.demo.main.Notification">
-        <!--        <constructor-arg ref="email"/>-->
-        <!--        <constructor-arg ref="employee"/>-->
-        <property name="message" ref="email"/>
-        <property name="employee" ref="employee"/>
-
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="carInfo1" class="az.spring.demo.dao.main.Info" autowire="byName"/>
+    <!--    <bean id="carInfo1" class="az.spring.demo.dao.main.Info">-->
+    <!--        &lt;!&ndash;        <property name="car" ref="kia"/>&ndash;&gt;-->
+    <!--        <constructor-arg name="mechanic" ref="kia"/>-->
+    <!--        <constructor-arg name="human" ref="employee"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="carInfo2" class="az.spring.demo.dao.main.Info">-->
+    <!--        &lt;!&ndash;        <property name="car" ref="kia"/>&ndash;&gt;-->
+    <!--        <constructor-arg name="mechanic" ref="mercedes"/>-->
+    <!--        <constructor-arg name="human" ref="employee"/>-->
+    <!--    </bean>-->
+    <!--    <alias name="carInfo1" alias="car-kia"/>-->
+    <!--    <alias name="carInfo2" alias="car-mercedes"/>-->
+    <bean id="kia" class="az.spring.demo.dao.impl.Kia">
+        <constructor-arg value="190" type="java.lang.String"/>
+        <constructor-arg value="1998" type="java.lang.Integer"/>
     </bean>
-    <bean id="sms" class="az.spring.demo.impl.Sms"/>
-    <bean id="email" class="az.spring.demo.impl.Email"/>
-    <bean id="employee" class="az.spring.demo.impl.Employee">
-        <property name="name" value="Alisa"/>
-        <property name="surname" value="Aslan"/>
-        <property name="age" value="19"/>
-        <property name="salary" value="2000"/>
-        <property name="hammers">
+    <bean id="mechanic" class="az.spring.demo.dao.impl.Bmw">
+        <property name="carVersion" value="290"/>
+        <property name="carYear" value="1998"/>
+    </bean>
+    <bean id="mercedes" class="az.spring.demo.dao.impl.Mercedes">
+        <property name="carVersion" value="190"/>
+        <property name="carYear" value="1999"/>
+    </bean>
+    <bean id="telephoneAndroid" class="az.spring.demo.dao.impl.Telephone">
+        <property name="version" value="190"/>
+        <property name="price" value="2000"/>
+    </bean>
+    <bean id="telephoneIOS" class="az.spring.demo.dao.impl.Telephone">
+        <property name="version" value="190"/>
+        <property name="price" value="2000"/>
+    </bean>
+    <bean id="telephoneUbuntu" class="az.spring.demo.dao.impl.Telephone">
+        <property name="version" value="190"/>
+        <property name="price" value="2000"/>
+    </bean>
+    <bean id="washingMachine1" class="az.spring.demo.dao.impl.WashingMachine">
+        <property name="version" value="290"/>
+        <property name="price" value="2500"/>
+    </bean>
+    <bean id="washingMachine2" class="az.spring.demo.dao.impl.WashingMachine">
+        <property name="version" value="290"/>
+        <property name="price" value="2500"/>
+    </bean>
+    <bean id="washingMachine3" class="az.spring.demo.dao.impl.WashingMachine">
+        <property name="version" value="290"/>
+        <property name="price" value="2500"/>
+    </bean>
+    <bean id="computer1" class="az.spring.demo.dao.impl.Computer">
+        <property name="version" value="222"/>
+        <property name="price" value="3500"/>
+    </bean>
+    <bean id="computer2" class="az.spring.demo.dao.impl.Computer">
+        <property name="version" value="222"/>
+        <property name="price" value="3500"/>
+    </bean>
+    <bean id="computer3" class="az.spring.demo.dao.impl.Computer">
+        <property name="version" value="222"/>
+        <property name="price" value="3500"/>
+    </bean>
+    <bean id="human" class="az.spring.demo.dao.impl.Employee">
+        <property name="name" value="Talib"/>
+        <property name="surname" value="Nabi"/>
+        <property name="age" value="20"/>
+        <property name="points">
             <list>
-                <ref bean="hammer"/>
-                <ref bean="hammer2"/>
-                <ref bean="hammer3"/>
-                <!--                <value>small</value>-->
-                <!--                <value>medium</value>-->
-                <!--                <value>big</value>-->
+                <value>90</value>
+                <value>80</value>
+                <value>98</value>
+                <value>89</value>
             </list>
         </property>
-    </bean>
-    <bean id="hammer" class="az.spring.demo.impl.Hammer">
-        <property name="name" value="Small"/>
-        <property name="version" value="190"/>
-    </bean>
-    <bean id="hammer2" class="az.spring.demo.impl.Hammer">
-        <property name="name" value="Medium"/>
-        <property name="version" value="200"/>
-    </bean>
-    <bean id="hammer3" class="az.spring.demo.impl.Hammer">
-        <property name="name" value="Big"/>
-        <property name="version" value="300"/>
+        <property name="devices">
+            <list>
+                <ref bean="telephoneAndroid"/>
+                <ref bean="telephoneIOS"/>
+                <ref bean="telephoneUbuntu"/>
+                <bean class="az.spring.demo.dao.impl.Telephone">
+                    <property name="price" value="2100"/>
+                    <property name="version" value="345"/>
+                </bean>
+            </list>
+        </property>
+        <property name="devicesSecond">
+            <set>
+                <ref bean="washingMachine1"/>
+                <ref bean="washingMachine2"/>
+                <ref bean="washingMachine3"/>
+            </set>
+        </property>
+        <property name="deviceThird">
+            <map>
+                <entry key-ref="computer1" value="1"/>
+                <entry key-ref="computer2" value="2"/>
+                <entry key-ref="computer3" value="3"/>
+            </map>
+        </property>
+        <property name="databaseProperty">
+            <props>
+                <prop key="url">jdbc:mysql://localhost:3306/resume</prop>
+                <prop key="username">root</prop>
+                <prop key="password">12345</prop>
+            </props>
+        </property>
     </bean>
 </beans>

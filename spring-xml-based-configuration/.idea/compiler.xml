@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-dependency-injection" />
+        <module name="spring-xml-based-configuration" />
       </profile>
     </annotationProcessing>
   </component>

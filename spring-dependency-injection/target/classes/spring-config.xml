@@ -2,16 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="notification" class="az.spring.demo.main.Notification">
-        <constructor-arg ref="sms"/>
-        <constructor-arg ref="email"/>
-        <!--        <property name="message" ref="sms"/>-->
+    <bean id="carInfo" class="az.spring.demo.dao.main.CarInfo">
+<!--        <property name="car" ref="kia"/>-->
+                <constructor-arg name="car" ref="kia"/>
     </bean>
-
-    <bean id="sms" class="az.spring.demo.impl.Sms"/>
-    <bean id="email" class="az.spring.demo.impl.Email"/>
-    <bean id="facebookMessage" class="az.spring.demo.impl.FacebookMessage"/>
-    <bean id="instagramMessage" class="az.spring.demo.impl.InstagramMessage"/>
-    <bean id="tinderAppMessage" class="az.spring.demo.impl.TinderAppMessage"/>
+    <bean id="kia" class="az.spring.demo.dao.impl.Kia"/>
+    <bean id="bmw" class="az.spring.demo.dao.impl.Bmw"/>
+    <bean id="mercedes" class="az.spring.demo.dao.impl.Mercedes"/>
 </beans>

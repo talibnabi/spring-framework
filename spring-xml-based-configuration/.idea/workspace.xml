@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaa06aa7-88de-4898-bd4c-85b8af732887" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/impl/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/impl/Kia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/impl/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/inter/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/main/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/main/CarInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Kia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Telephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/WashingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/main/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Mechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api_docs/Device.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/impl/Bmw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/impl/Kia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/impl/Mercedes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/main/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/service/Mechanic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/FacebookMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/InstagramMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/Sms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/TinderAppMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/inter/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/main/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/main/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/FacebookMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/InstagramMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/Sms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/TinderAppMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/inter/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/main/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/main/Notification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Hammer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Sms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/inter/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/inter/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/inter/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/main/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/main/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Hammer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Sms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/inter/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/inter/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/inter/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/main/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/main/Notification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CE0nP1I0o8pRuMUp13drUYq3es" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/spring-framework-learning-examples/spring-xml-based-configuration",
+    "spring.configuration.checksum": "91dc540945c2fd44ae4201ed2a5f6aed"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\spring-framework-learning-examples\spring-xml-based-configuration\src\main\java" />
+      <recent name="C:\Workspace\spring-framework-learning-examples\spring-xml-based-configuration\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="az.spring.demo.dao.main.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="az.spring.demo.dao.main.Application" />
+      <module name="spring-xml-based-configuration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="az.spring.demo.dao.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.az.spring.demo.dao.main.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaa06aa7-88de-4898-bd4c-85b8af732887" name="Changes" comment="" />
+      <created>1658352605036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658352605036</updated>
+      <workItem from="1658352606785" duration="4611000" />
+      <workItem from="1658389680143" duration="9413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
