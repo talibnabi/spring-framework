@@ -25,7 +25,7 @@ public class Info {
         this.mechanic.start();
         this.mechanic.speedUp();
         this.mechanic.stop();
-        System.out.println("-----------------------------------------------------");
+        System.out.println("-------------------------------------------------------");
         this.human.read();
         this.human.write();
         System.out.println(this.human.toString());

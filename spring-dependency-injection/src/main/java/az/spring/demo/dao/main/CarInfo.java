@@ -17,5 +17,6 @@ public class CarInfo {
         this.car.start();
         this.car.speedUp();
         this.car.stop();
+        System.out.println("---------------------");
     }
 }

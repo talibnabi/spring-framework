@@ -5,78 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaa06aa7-88de-4898-bd4c-85b8af732887" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/impl/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/impl/Kia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/impl/Mercedes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/inter/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/main/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/dao/main/CarInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Kia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Mercedes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/Telephone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/impl/WashingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/main/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Eat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/service/Mechanic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/api_docs/Device.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/impl/Bmw.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/impl/Kia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/impl/Mercedes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/main/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/az/spring/demo/dao/service/Mechanic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/FacebookMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/InstagramMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/Sms.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/impl/TinderAppMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/inter/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/spring/demo/dao/main/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/java/az/spring/demo/main/Notification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/src/main/resources/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/FacebookMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/InstagramMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/Sms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/impl/TinderAppMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/inter/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/main/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/az/spring/demo/main/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/target/classes/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Hammer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/impl/Sms.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/inter/Device.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/inter/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/inter/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/main/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/spring/demo/main/Notification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Hammer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/impl/Sms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/inter/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/inter/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/inter/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/main/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/spring/demo/main/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/config/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/Kia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/Telephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/impl/WashingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/main/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/main/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/service/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/service/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/service/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/java/az/spring/demo/dao/service/Mechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/Bmw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/Kia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/Mercedes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/Telephone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/impl/WashingMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/main/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/main/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/service/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/service/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/service/Eat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/service/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/az/spring/demo/dao/service/Mechanic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-dependency-injection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-dependency-injection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +74,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Workspace/spring-framework-learning-examples/spring-xml-based-configuration",
+    "last_opened_file_path": "C:/Workspace/spring-framework-learning-examples/spring-dependency-injection",
     "spring.configuration.checksum": "91dc540945c2fd44ae4201ed2a5f6aed"
   }
 }]]></component>
@@ -149,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1658352605036</updated>
       <workItem from="1658352606785" duration="4611000" />
-      <workItem from="1658389680143" duration="9413000" />
+      <workItem from="1658389680143" duration="10104000" />
+      <workItem from="1658416558589" duration="18000" />
+      <workItem from="1658476541442" duration="727000" />
     </task>
     <servers />
   </component>
@@ -166,5 +136,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
