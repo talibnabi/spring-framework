@@ -68,6 +68,6 @@ public class Info {
 
     @PreDestroy
     public void myDestroy() {
-        System.out.println("my destroy method worked.");
+        System.out.println("my destroy method worked");
     }
 }
