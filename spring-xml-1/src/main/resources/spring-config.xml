@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="user" class="spring.beans.User">
+        <constructor-arg value="Alirza"/>
+        <!--        <property name="name" value="Alirza"/>-->
+    </bean>
+    <bean id="userDaoImpl" class="spring.dao.impl.UserDaoImpl">
+        <property name="userName" value="Amin"/>
+    </bean>
+    <bean id="myUserDaoImpl" class="spring.dao.impl.MyUserDaoImpl">
+        <property name="userName" value="Turan"/>
+    </bean>
+</beans>
