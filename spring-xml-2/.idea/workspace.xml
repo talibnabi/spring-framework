@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11697bcf-d377-4a39-849c-dc97ebd3d4d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/Kia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/Telephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/impl/WashingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/main/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/main/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/service/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/service/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/service/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/java/az/spring/demo/dao/service/Mechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/config/SpringConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/Bmw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/Kia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/Mercedes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/Telephone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/impl/WashingMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/main/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/main/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/service/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/service/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/service/Eat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/service/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/az/spring/demo/dao/service/Mechanic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-based-configuration/target/classes/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/src/main/java/spring/beans/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/src/main/java/spring/dao/impl/MyUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/src/main/java/spring/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/src/main/java/spring/dao/inter/UserDaoInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/src/main/java/spring/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-xml-1/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/beans/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-java-based-configurations-scops-lifecycle/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CMTtGAUzspG0KAYZz1AvfscPwK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/spring-framework-learning-examples/spring-xml-2/src/main/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\spring-framework-learning-examples\spring-xml-2\src\main\java" />
+      <recent name="C:\Workspace\spring-framework-learning-examples\spring-xml-2\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.main.Main" />
+      <module name="spring-xml-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11697bcf-d377-4a39-849c-dc97ebd3d4d5" name="Changes" comment="" />
+      <created>1658611668062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658611668062</updated>
+      <workItem from="1658611669468" duration="4765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
