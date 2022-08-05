@@ -24,8 +24,9 @@ public class UserService {
         return userRepo.save(user);
     }
 
-    public List<User> getAllUser() {
-        return userRepo.findAll();
+    public List<User> getAllUser(){
+        List<User> user = userRepo.findAll();
+            return userRepo.findAll();
     }
 
     public User getUser(int id) throws UserNotFoundException {
@@ -33,7 +34,7 @@ public class UserService {
         if (user != null) {
             return userRepo.findByUserId(id);
         } else {
-            throw new UserNotFoundException("User not found with id: "+id);
+            throw new UserNotFoundException("User not found with id: " + id);
         }
     }
 }
