@@ -25,8 +25,7 @@ public class UserService {
     }
 
     public List<User> getAllUser(){
-        List<User> user = userRepo.findAll();
-            return userRepo.findAll();
+        return userRepo.findAll();
     }
 
     public User getUser(int id) throws UserNotFoundException {
