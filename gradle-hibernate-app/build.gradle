@@ -11,6 +11,7 @@ sourceCompatibility=1.8
 targetCompatibility=1.8
 
 dependencies {
+
     implementation group: 'org.hibernate.orm', name: 'hibernate-core', version: '6.1.2.Final'
 
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.4.1'
