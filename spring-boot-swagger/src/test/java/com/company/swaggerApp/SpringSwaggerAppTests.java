@@ -1,10 +1,10 @@
-package com.company.springvalidation;
+package com.company.swaggerApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringValidationApplicationTests {
+class SpringSwaggerAppTests {
 
 	@Test
 	void contextLoads() {

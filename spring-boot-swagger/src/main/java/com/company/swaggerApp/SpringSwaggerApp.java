@@ -1,13 +1,12 @@
-package com.company.springvalidation;
+package com.company.swaggerApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringValidationApplication {
+public class SpringSwaggerApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringValidationApplication.class, args);
+		SpringApplication.run(SpringSwaggerApp.class, args);
 	}
-
 }
