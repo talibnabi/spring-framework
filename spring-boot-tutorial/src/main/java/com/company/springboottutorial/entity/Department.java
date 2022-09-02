@@ -4,8 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Entity
 @Builder
@@ -38,10 +42,16 @@ public class Department {
     )
     @Column(name = "department_id")
     private Long departmentId;
-    @Column(name = "department_name",nullable = false)
+
+    @NotBlank(message = "Please add department name")
+    @Length(max = 10, min = 1,message = "Please add department name")
+    @Size(max = 10, min = 1,message = "Please add department name")
+    @Column(name = "department_name", nullable = false)
     private String departmentName;
-    @Column(name = "department_address",nullable = false)
+
+    @Column(name = "department_address", nullable = false)
     private String departmentAddress;
-    @Column(name = "department_code",nullable = false)
+
+    @Column(name = "department_code", nullable = false)
     private String departmentCode;
 }
