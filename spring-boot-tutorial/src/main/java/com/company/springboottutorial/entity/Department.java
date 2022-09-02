@@ -21,14 +21,14 @@ import javax.persistence.*;
 )
 public class Department {
     @SequenceGenerator(
-            name = "doctor_sequence",
-            sequenceName = "doctor_sequence",
+            name = "department_sequence",
+            sequenceName = "department_sequence",
             allocationSize = 1
     )
     @Id
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
-            generator = "doctor_sequence"
+            generator = "department_sequence"
     )
     @Column(name = "department_id")
     private Long departmentId;
