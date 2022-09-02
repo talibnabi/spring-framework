@@ -19,7 +19,43 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public List<Department> getDepartment() {
+    public List<Department> getAllDepartment() {
         return departmentRepository.findAll();
     }
+
+    @Override
+    public Department getDepartment(Long id) {
+        return departmentRepository.findById(id).get();
+    }
+
+    @Override
+    public void deleteDepartment(Long id) {
+        Department department = getDepartment(id);
+        departmentRepository.delete(department);
+    }
+
+    @Override
+    public void updateDepartment(Long id, Department department) {
+        Department department1 = getDepartment(id);
+        if (department.getDepartmentName() != null && !"".equalsIgnoreCase(department.getDepartmentName())) {
+            department1.setDepartmentName(department.getDepartmentName());
+        }
+        if (department.getDepartmentCode() != null && !"".equalsIgnoreCase(department.getDepartmentCode())) {
+            department1.setDepartmentCode(department.getDepartmentCode());
+        }
+        if (department.getDepartmentAddress() != null && !"".equalsIgnoreCase(department.getDepartmentAddress())) {
+            department1.setDepartmentAddress(department.getDepartmentAddress());
+        }
+        departmentRepository.save(department1);
+    }
+
+    @Override
+    public Department findDepartmentByDepartmentName(String departmentName) {
+        return departmentRepository.findDepartmentByDepartmentName(departmentName);
+    }
+
+    public Department findDepartmentByDepartmentNameIgnoreCase(String departmentName) {
+        return departmentRepository.findDepartmentByDepartmentNameIgnoreCase(departmentName);
+    }
+
 }

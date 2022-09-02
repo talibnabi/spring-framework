@@ -14,10 +14,16 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Table(
         name = "tbl_department",
-        uniqueConstraints = @UniqueConstraint(
-                name = "department_code_constraint",
-                columnNames = "department_code"
-        )
+        uniqueConstraints = {
+                @UniqueConstraint(
+                        name = "department_code_constraint",
+                        columnNames = "department_code"
+                ),
+                @UniqueConstraint(
+                        name = "department_name_constraint",
+                        columnNames = "department_name"
+                )
+        }
 )
 public class Department {
     @SequenceGenerator(
@@ -32,10 +38,10 @@ public class Department {
     )
     @Column(name = "department_id")
     private Long departmentId;
-    @Column(name = "department_name")
+    @Column(name = "department_name",nullable = false)
     private String departmentName;
-    @Column(name = "department_address")
+    @Column(name = "department_address",nullable = false)
     private String departmentAddress;
-    @Column(name = "department_code")
+    @Column(name = "department_code",nullable = false)
     private String departmentCode;
 }
