@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+import static com.company.springboottutorial.utils.ExceptionUtil.DEPARTMENT_NOT_FOUND;
+
 @RequiredArgsConstructor
 @Service
 public class DepartmentServiceImpl implements DepartmentService {
@@ -18,35 +20,35 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public Optional<Department> saveDepartment(Department department) throws DepartmentNotFoundException {
         return Optional.of(Optional.of(departmentRepository.save(department)).orElseThrow(() ->
-                new DepartmentNotFoundException("Department not found.")));
+                new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
     }
 
     @Override
-    public List<Department> getAllDepartment() {
-        return departmentRepository.findAll();
+    public Optional<List<Department>> getAllDepartment() throws DepartmentNotFoundException {
+        return Optional.of(Optional.of(departmentRepository.findAll()).orElseThrow(() ->
+                new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
     }
 
     @Override
     public Optional<Department> getDepartment(Long id) throws DepartmentNotFoundException {
         Optional<Department> department = departmentRepository.findById(id);
         if (department.isEmpty()) {
-            throw new DepartmentNotFoundException("Department not found.");
+            throw new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND);
         }
         return department;
     }
 
     @Override
     public void deleteDepartment(Long id) throws DepartmentNotFoundException {
-        Optional<Department> department = Optional.ofNullable(getDepartment(id));
-        if (department.isEmpty()) {
-            throw new DepartmentNotFoundException("Department not found");
-        }
-        departmentRepository.delete(department.get());
+        Optional<Department> department = Optional.of(getDepartment(id).orElseThrow(() ->
+                new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
+        department.ifPresent(departmentRepository::delete);
     }
 
     @Override
     public void updateDepartment(Long id, Department department) throws DepartmentNotFoundException {
-        Optional<Department> department1 = getDepartment(id);
+        Optional<Department> department1 = Optional.ofNullable(getDepartment(id).orElseThrow(() ->
+                new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
         if (department.getDepartmentName() != null && !"".equalsIgnoreCase(department.getDepartmentName())) {
             department1.ifPresent(department2 -> department2.setDepartmentName(department.getDepartmentName()));
         }
@@ -62,12 +64,12 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public Optional<Department> findDepartmentByDepartmentName(String departmentName) throws DepartmentNotFoundException {
         return Optional.of(Optional.ofNullable(departmentRepository.findDepartmentByDepartmentName(departmentName)).orElseThrow(() ->
-                new DepartmentNotFoundException("Department not found.")));
+                new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
     }
 
     public Optional<Department> findDepartmentByDepartmentNameIgnoreCase(String departmentName) throws DepartmentNotFoundException {
         return Optional.of(Optional.ofNullable(departmentRepository.findDepartmentByDepartmentNameIgnoreCase(departmentName)).orElseThrow(() ->
-                new DepartmentNotFoundException("Department not found.")));
+                new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
     }
 
 }

@@ -22,33 +22,33 @@ public class DepartmentController {
 
 
     @GetMapping("/getAllDepartment")
-    public List<Department> getAllDepartment() {
+    public List<Department> getAllDepartment() throws DepartmentNotFoundException {
         LOGGER.info("Inside getAllDepartment of DepartmentController");
-        return departmentService.getAllDepartment();
+        return departmentService.getAllDepartment().orElseThrow();
     }
 
     @GetMapping("/getByDepartmentName/name/{name}")
-    public Department getByDepartmentName(@PathVariable("name") String departmentName) {
+    public Department getByDepartmentName(@PathVariable("name") String departmentName) throws DepartmentNotFoundException {
         LOGGER.info("Inside getByDepartmentName of DepartmentController");
-        return departmentService.findDepartmentByDepartmentName(departmentName);
+        return departmentService.findDepartmentByDepartmentName(departmentName).orElseThrow();
     }
 
     @GetMapping("/getByDepartmentName/nameIgnoreCase/{name}")
-    public Department getByDepartmentNameIgnoreCase(@PathVariable("name") String departmentName) {
+    public Department getByDepartmentNameIgnoreCase(@PathVariable("name") String departmentName) throws DepartmentNotFoundException {
         LOGGER.info("Inside getByDepartmentNameIgnoreCase of DepartmentController");
-        return departmentService.findDepartmentByDepartmentNameIgnoreCase(departmentName);
+        return departmentService.findDepartmentByDepartmentNameIgnoreCase(departmentName).orElseThrow();
     }
 
     @GetMapping("/getDepartment/{id}")
     public Department getDepartment(@PathVariable("id") Long id) throws DepartmentNotFoundException {
         LOGGER.info("Inside getDepartment of DepartmentController");
-        return departmentService.getDepartment(id);
+        return departmentService.getDepartment(id).orElseThrow();
     }
 
     @PostMapping("/save")
-    public Department saveDepartment(@Valid @RequestBody Department department) {
+    public Department saveDepartment(@Valid @RequestBody Department department) throws DepartmentNotFoundException {
         LOGGER.info("Inside saveDepartment of DepartmentController");
-        return departmentService.saveDepartment(department);
+        return departmentService.saveDepartment(department).orElseThrow();
     }
 
     @DeleteMapping("/deleteDepartment/{id}")

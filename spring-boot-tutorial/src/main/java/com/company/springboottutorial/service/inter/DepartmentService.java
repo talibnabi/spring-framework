@@ -9,7 +9,7 @@ import java.util.Optional;
 public interface DepartmentService {
     Optional<Department> saveDepartment(Department department) throws DepartmentNotFoundException;
 
-    Optional<List<Department>> getAllDepartment();
+    Optional<List<Department>> getAllDepartment() throws DepartmentNotFoundException;
 
     Optional<Department> getDepartment(Long id) throws DepartmentNotFoundException;
 
