@@ -1,12 +1,14 @@
 package com.company.springboottutorial.service.impl;
 
 import com.company.springboottutorial.entity.Department;
+import com.company.springboottutorial.error.DepartmentNotFoundException;
 import com.company.springboottutorial.repository.DepartmentRepository;
 import com.company.springboottutorial.service.inter.DepartmentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @RequiredArgsConstructor
 @Service
@@ -14,8 +16,9 @@ public class DepartmentServiceImpl implements DepartmentService {
     private final DepartmentRepository departmentRepository;
 
     @Override
-    public Department saveDepartment(Department department) {
-        return departmentRepository.save(department);
+    public Optional<Department> saveDepartment(Department department) throws DepartmentNotFoundException {
+        return Optional.of(Optional.of(departmentRepository.save(department)).orElseThrow(() ->
+                new DepartmentNotFoundException("Department not found.")));
     }
 
     @Override
@@ -24,38 +27,47 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public Department getDepartment(Long id) {
-        return departmentRepository.findById(id).get();
+    public Optional<Department> getDepartment(Long id) throws DepartmentNotFoundException {
+        Optional<Department> department = departmentRepository.findById(id);
+        if (department.isEmpty()) {
+            throw new DepartmentNotFoundException("Department not found.");
+        }
+        return department;
     }
 
     @Override
-    public void deleteDepartment(Long id) {
-        Department department = getDepartment(id);
-        departmentRepository.delete(department);
+    public void deleteDepartment(Long id) throws DepartmentNotFoundException {
+        Optional<Department> department = Optional.ofNullable(getDepartment(id));
+        if (department.isEmpty()) {
+            throw new DepartmentNotFoundException("Department not found");
+        }
+        departmentRepository.delete(department.get());
     }
 
     @Override
-    public void updateDepartment(Long id, Department department) {
-        Department department1 = getDepartment(id);
+    public void updateDepartment(Long id, Department department) throws DepartmentNotFoundException {
+        Optional<Department> department1 = getDepartment(id);
         if (department.getDepartmentName() != null && !"".equalsIgnoreCase(department.getDepartmentName())) {
-            department1.setDepartmentName(department.getDepartmentName());
+            department1.ifPresent(department2 -> department2.setDepartmentName(department.getDepartmentName()));
         }
         if (department.getDepartmentCode() != null && !"".equalsIgnoreCase(department.getDepartmentCode())) {
-            department1.setDepartmentCode(department.getDepartmentCode());
+            department1.ifPresent(department2 -> department2.setDepartmentCode(department.getDepartmentCode()));
         }
         if (department.getDepartmentAddress() != null && !"".equalsIgnoreCase(department.getDepartmentAddress())) {
-            department1.setDepartmentAddress(department.getDepartmentAddress());
+            department1.ifPresent(department2 -> department2.setDepartmentAddress(department.getDepartmentAddress()));
         }
-        departmentRepository.save(department1);
+        department1.ifPresent(departmentRepository::save);
     }
 
     @Override
-    public Department findDepartmentByDepartmentName(String departmentName) {
-        return departmentRepository.findDepartmentByDepartmentName(departmentName);
+    public Optional<Department> findDepartmentByDepartmentName(String departmentName) throws DepartmentNotFoundException {
+        return Optional.of(Optional.ofNullable(departmentRepository.findDepartmentByDepartmentName(departmentName)).orElseThrow(() ->
+                new DepartmentNotFoundException("Department not found.")));
     }
 
-    public Department findDepartmentByDepartmentNameIgnoreCase(String departmentName) {
-        return departmentRepository.findDepartmentByDepartmentNameIgnoreCase(departmentName);
+    public Optional<Department> findDepartmentByDepartmentNameIgnoreCase(String departmentName) throws DepartmentNotFoundException {
+        return Optional.of(Optional.ofNullable(departmentRepository.findDepartmentByDepartmentNameIgnoreCase(departmentName)).orElseThrow(() ->
+                new DepartmentNotFoundException("Department not found.")));
     }
 
 }
