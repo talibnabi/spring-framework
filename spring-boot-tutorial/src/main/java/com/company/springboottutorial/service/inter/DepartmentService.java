@@ -2,6 +2,7 @@ package com.company.springboottutorial.service.inter;
 
 import com.company.springboottutorial.entity.Department;
 import com.company.springboottutorial.error.DepartmentNotFoundException;
+import com.company.springboottutorial.repository.DepartmentRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -20,4 +21,5 @@ public interface DepartmentService {
     Optional<Department> findDepartmentByDepartmentName(String departmentName) throws DepartmentNotFoundException;
 
     Optional<Department> findDepartmentByDepartmentNameIgnoreCase(String departmentName) throws DepartmentNotFoundException;
+
 }

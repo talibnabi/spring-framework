@@ -8,7 +8,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -17,11 +19,13 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.verify;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.*;
 
 
 @SpringBootTest
+@ExtendWith(MockitoExtension.class)
 class DepartmentServiceImplTest {
     @Autowired
     private DepartmentService departmentService;
@@ -31,7 +35,13 @@ class DepartmentServiceImplTest {
 
     @BeforeEach
     void setUp() {
-
+        Department department = Department.builder()
+                .departmentName("Milan")
+                .departmentAddress("Imishli")
+                .departmentCode("4114")
+                .departmentId(12L)
+                .build();
+        Mockito.when(departmentRepository.findById(12L)).thenReturn(Optional.ofNullable(department));
     }
 
     @Test
@@ -89,8 +99,8 @@ class DepartmentServiceImplTest {
     }
 
     @Test
-    @DisplayName("deleteDepartment")
-    public void deleteDepartment() throws DepartmentNotFoundException {
+    @DisplayName("deleteDepartmentTest")
+    public void deleteDepartmentTest() throws DepartmentNotFoundException {
         Department department = Department.builder()
                 .departmentName("Azersun")
                 .departmentAddress("Sabuncu")
@@ -101,6 +111,21 @@ class DepartmentServiceImplTest {
                 .when(this.departmentRepository).deleteById(department.getDepartmentId());
         this.departmentRepository.deleteById(department.getDepartmentId());
         verify(this.departmentRepository).deleteById(department.getDepartmentId());
-
     }
+
+    @Test
+    @DisplayName("updateDepartmentTest")
+    public void updateDepartmentTest() throws DepartmentNotFoundException {
+
+        final  Department department = Department.builder()
+                .departmentName("Milan")
+                .departmentAddress("Imishli")
+                .departmentCode("4114")
+                .departmentId(12L)
+                .build();
+        given(departmentRepository.save(department)).willReturn(department);
+        departmentService.updateDepartment(department.getDepartmentId(), department);
+        verify(departmentRepository).save(any(Department.class));
+    }
+
 }
