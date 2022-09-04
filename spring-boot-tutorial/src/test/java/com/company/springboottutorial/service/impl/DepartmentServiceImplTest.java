@@ -5,6 +5,7 @@ import com.company.springboottutorial.error.DepartmentNotFoundException;
 import com.company.springboottutorial.repository.DepartmentRepository;
 import com.company.springboottutorial.service.inter.DepartmentService;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,10 +34,11 @@ class DepartmentServiceImplTest {
                 .departmentCode("4344")
                 .departmentId(1L)
                 .build();
-        Mockito.when(departmentRepository.findAll()).thenReturn(List.of(department));
+        Mockito.when(departmentRepository.findById(1L)).thenReturn(Optional.ofNullable(department));
     }
 
     @Test
+    @DisplayName("findDepartmentByDepartmentNameTest")
     public void findDepartmentByDepartmentNameTest() throws DepartmentNotFoundException {
         String departmentName = "Azersun";
         Optional<Department> found = departmentService.findDepartmentByDepartmentName(departmentName);
@@ -44,6 +46,7 @@ class DepartmentServiceImplTest {
     }
 
     @Test
+    @DisplayName("findDepartmentByDepartmentNameIgnoreCaseTest")
     public void findDepartmentByDepartmentNameIgnoreCaseTest() throws DepartmentNotFoundException {
         String departmentName = "Azersun";
         Optional<Department> found = departmentService.findDepartmentByDepartmentNameIgnoreCase(departmentName);
@@ -51,7 +54,8 @@ class DepartmentServiceImplTest {
     }
 
     @Test
-    public void getAllDepartment() throws DepartmentNotFoundException {
+    @DisplayName("getAllDepartmentTest")
+    public void getAllDepartmentTest() throws DepartmentNotFoundException {
         Department department = Department.builder()
                 .departmentName("Azersun")
                 .departmentAddress("Sabuncu")
@@ -63,5 +67,13 @@ class DepartmentServiceImplTest {
         );
         Optional<List<Department>> departments = departmentService.getAllDepartment();
         assertEquals(departments1, departments.orElseThrow());
+    }
+
+    @Test
+    @DisplayName("getDepartmentTest")
+    public void getDepartmentTest() throws DepartmentNotFoundException {
+        Long departmentId = 1L;
+        Optional<Department> department = departmentService.getDepartment(departmentId);
+        assertEquals(departmentId, department.orElseThrow().getDepartmentId());
     }
 }
