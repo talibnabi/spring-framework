@@ -17,6 +17,8 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.verify;
 
 
 @SpringBootTest
@@ -29,13 +31,7 @@ class DepartmentServiceImplTest {
 
     @BeforeEach
     void setUp() {
-        Department department = Department.builder()
-                .departmentName("Azersun")
-                .departmentAddress("Sabuncu")
-                .departmentCode("4344")
-                .departmentId(1L)
-                .build();
-        Mockito.when(departmentRepository.findById(1L)).thenReturn(Optional.ofNullable(department));
+
     }
 
     @Test
@@ -77,5 +73,34 @@ class DepartmentServiceImplTest {
         Long departmentId = 1L;
         Optional<Department> department = departmentService.getDepartment(departmentId);
         assertEquals(departmentId, department.orElseThrow().getDepartmentId());
+    }
+
+    @Test
+    @DisplayName("saveDepartmentTest")
+    public void saveDepartmentTest() throws DepartmentNotFoundException {
+        Department department = Department.builder()
+                .departmentName("Azersun")
+                .departmentAddress("Sabuncu")
+                .departmentCode("4344")
+                .departmentId(1L)
+                .build();
+        Optional<Department> department1 = departmentService.saveDepartment(department);
+        assertEquals(department, department1.orElseThrow());
+    }
+
+    @Test
+    @DisplayName("deleteDepartment")
+    public void deleteDepartment() throws DepartmentNotFoundException {
+        Department department = Department.builder()
+                .departmentName("Azersun")
+                .departmentAddress("Sabuncu")
+                .departmentCode("4344")
+                .departmentId(1L)
+                .build();
+        doNothing().doThrow(new IllegalStateException())
+                .when(this.departmentRepository).deleteById(department.getDepartmentId());
+        this.departmentRepository.deleteById(department.getDepartmentId());
+        verify(this.departmentRepository).deleteById(department.getDepartmentId());
+
     }
 }
