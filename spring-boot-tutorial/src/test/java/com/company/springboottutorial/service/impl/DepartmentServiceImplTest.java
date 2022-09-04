@@ -5,6 +5,7 @@ import com.company.springboottutorial.error.DepartmentNotFoundException;
 import com.company.springboottutorial.repository.DepartmentRepository;
 import com.company.springboottutorial.service.inter.DepartmentService;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -71,6 +72,7 @@ class DepartmentServiceImplTest {
 
     @Test
     @DisplayName("getDepartmentTest")
+    @Disabled
     public void getDepartmentTest() throws DepartmentNotFoundException {
         Long departmentId = 1L;
         Optional<Department> department = departmentService.getDepartment(departmentId);
