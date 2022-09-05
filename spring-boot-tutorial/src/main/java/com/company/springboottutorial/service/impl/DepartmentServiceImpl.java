@@ -15,6 +15,7 @@ import static com.company.springboottutorial.utils.ExceptionUtil.DEPARTMENT_NOT_
 @RequiredArgsConstructor
 @Service
 public class DepartmentServiceImpl implements DepartmentService {
+
     private final DepartmentRepository departmentRepository;
 
     @Override
@@ -71,7 +72,6 @@ public class DepartmentServiceImpl implements DepartmentService {
         return Optional.of(Optional.ofNullable(departmentRepository.findDepartmentByDepartmentNameIgnoreCase(departmentName)).orElseThrow(() ->
                 new DepartmentNotFoundException(DEPARTMENT_NOT_FOUND)));
     }
-
 
 
 }
