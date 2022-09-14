@@ -1,2 +1,2 @@
-# spring-framework-learning-examples
-Spring-Framework Learning Examples
+# spring-framework-learnings
+Spring-Framework Learnings
