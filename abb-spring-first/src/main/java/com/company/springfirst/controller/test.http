@@ -1,0 +1,11 @@
+####
+POST http://localhost:8099/person
+Content-Type: application/json
+
+{
+"id":22,
+"name":"anar"
+}
+
+####
+GET http://localhost:8099/calc/add?x=3&y=5

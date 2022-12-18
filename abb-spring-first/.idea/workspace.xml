@@ -5,22 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff92f5-dfea-4199-9b80-1f416415d63f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springsecurity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/java/com/company/springsecurity/SpringsecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecurity/src/test/java/com/company/springsecurity/SpringsecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/java/com/company/toyshop/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/java/com/company/toyshop/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/java/com/company/toyshop/security/ApplicationSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/java/com/company/toyshop/security/ApplicationUserPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/java/com/company/toyshop/security/ApplicationUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/java/com/company/toyshop/security/PasswordConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-app/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/SpringfirstApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/CalcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/MathThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/test.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/service/CalcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/springsecurity/SpringsecurityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/src/main/java/com/company/springsecurity/SpringsecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/src/test/java/com/company/springsecurity/SpringsecurityApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +56,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -78,10 +89,32 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringBootFirstApplication">
-    <configuration name="SpringBootFirstApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.springfirst.SpringBootFirstApplication" />
+  <component name="RunManager" selected="Spring Boot.SpringfirstApplication">
+    <configuration name="com.company.springfirst.AppController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.springfirst.AppController" />
       <module name="abb-spring-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.springfirst.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | ##" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/test.http" requestIdentifier="##" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | ###2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/test.http" index="2" requestIdentifier="###2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringfirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="abb-spring-first" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springfirst.SpringfirstApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.springfirst.*" />
@@ -92,23 +125,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootFirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringsecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="abb-spring-first" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springfirst.SpringBootFirstApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.springfirst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springsecurity.SpringsecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootFirstApplication" />
-        <item itemvalue="Application.SpringBootFirstApplication" />
+        <item itemvalue="Spring Boot.SpringfirstApplication" />
+        <item itemvalue="HTTP Request.test | ###2" />
+        <item itemvalue="HTTP Request.test | ##" />
+        <item itemvalue="HTTP Request.test | #1" />
+        <item itemvalue="Application.com.company.springfirst.AppController" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671289904097</updated>
-      <workItem from="1671289906422" duration="1249000" />
+      <workItem from="1671289906422" duration="17388000" />
     </task>
     <servers />
   </component>
