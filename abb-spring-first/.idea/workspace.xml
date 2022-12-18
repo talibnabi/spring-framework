@@ -5,33 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff92f5-dfea-4199-9b80-1f416415d63f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/SpringfirstApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/CalcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/MathThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/test.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/service/CalcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/springsecurity/SpringsecurityApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/src/main/java/com/company/springsecurity/SpringsecurityApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsecurity/src/test/java/com/company/springsecurity/SpringsecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/CalcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springfirst/service/CalcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springfirst/service/CalcService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671289904097</updated>
-      <workItem from="1671289906422" duration="17388000" />
+      <workItem from="1671289906422" duration="18827000" />
     </task>
     <servers />
   </component>
