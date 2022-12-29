@@ -1,4 +1,4 @@
-package com.company.springfirst.model;
+package com.company.model;
 
 
 
@@ -10,6 +10,5 @@ import lombok.Data;
 public class Person {
     private Integer id;
     private String name;
-
 
 }

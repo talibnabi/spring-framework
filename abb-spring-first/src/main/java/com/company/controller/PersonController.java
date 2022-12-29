@@ -1,6 +1,6 @@
-package com.company.springfirst.controller;
+package com.company.controller;
 
-import com.company.springfirst.model.Person;
+import com.company.model.Person;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

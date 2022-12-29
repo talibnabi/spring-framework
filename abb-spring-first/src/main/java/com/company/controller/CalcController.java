@@ -1,6 +1,6 @@
-package com.company.springfirst.controller;
+package com.company.controller;
 
-import com.company.springfirst.service.CalcService;
+import com.company.service.CalcService;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

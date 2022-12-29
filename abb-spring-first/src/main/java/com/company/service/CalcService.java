@@ -1,6 +1,5 @@
-package com.company.springfirst.service;
+package com.company.service;
 
-import com.company.springfirst.controller.MathThings;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
