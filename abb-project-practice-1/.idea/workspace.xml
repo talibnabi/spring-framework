@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09a1deb0-3934-4f88-8690-780bba831d9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/DAOPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/DAOPizzaInMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/entity/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/ServerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/ServerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/dao/DAOPizzaInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/dao/DAOPizzaInMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/ServerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/ServerApp.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JTQVUMLDQUhGPAxEUj2tFmCIUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/spring-framework/abb-spring-first",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "a89464b9972b817205a892c7624bd1a4"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09a1deb0-3934-4f88-8690-780bba831d9d" name="Changes" comment="" />
+      <created>1672099617729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672099617729</updated>
+      <workItem from="1672099619789" duration="885000" />
+      <workItem from="1672261976147" duration="673000" />
+      <workItem from="1672307708220" duration="1099000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

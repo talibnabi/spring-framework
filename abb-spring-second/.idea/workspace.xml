@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96e0623b-ad98-4d01-8de5-c61184c9eb9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../abb-project-practice-1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-project-practice-1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-project-practice-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-project-practice-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-project-practice-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-project-practice-1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/SpringFirstApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/controller/CalcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/controller/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/controller/test.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/model/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/service/CalcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/java/com/company/springpractice/service/MathService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-spring-first-practice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/SpringBootFirstApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/DAOPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/DAOPizzaInMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/dao/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/entity/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/src/main/java/com/company/web01/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/ServerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1-1/target/classes/com/company/web01/ServerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/dao/DAOPizzaInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/src/main/java/com/company/javaweb/dao/DAOPizzaInMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/ServerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-web-1/target/classes/com/company/javaweb/ServerApp.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JdQZhXJdcOyn9pOofFFsZYzhtx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringBootFirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="abb-spring-second" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springsecond.SpringBootFirstApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.springsecond.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootFirstApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96e0623b-ad98-4d01-8de5-c61184c9eb9f" name="Changes" comment="" />
+      <created>1672405540307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672405540307</updated>
+      <workItem from="1672405542013" duration="1247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

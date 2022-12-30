@@ -1,0 +1,43 @@
+GET http://localhost:8099/person/anar
+
+####
+GET http://localhost:8099/person/alisa
+
+####
+POST http://localhost:8099/person
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Turan"
+}
+
+
+####
+GET http://localhost:8099/hello/hello1?info=I am diviloper
+
+####
+GET http://localhost:8099/hello/hello2?info=I am diviloper&count=23
+
+####
+GET http://localhost:8099/hello/hello2?info=i am diviloper
+
+####
+POST http://localhost:8099/hello/hello3
+Content-Type: application/json
+
+{
+  "text": "Hi,Alisa"
+}
+
+####
+POST http://localhost:8099/hello/hello4
+Content-Type: application/json
+
+[
+    "1","3","2323434"
+]
+
+
+####
+GET http://localhost:8099/car/get?integers=32&integers=23&integers=343
