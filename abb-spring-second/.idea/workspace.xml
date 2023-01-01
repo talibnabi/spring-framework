@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e0623b-ad98-4d01-8de5-c61184c9eb9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/UsingAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/a/Bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/a/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/a/Good.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/a/Ripe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/a/RunMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/a/Ugly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/model/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/model/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/model/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/model/Plum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/annot/model/Watermelon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/reflection/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsecond/reflection/TestApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -145,7 +130,7 @@
       <workItem from="1672405542013" duration="1247000" />
       <workItem from="1672407671648" duration="1005000" />
       <workItem from="1672425875654" duration="7814000" />
-      <workItem from="1672486618781" duration="10709000" />
+      <workItem from="1672486618781" duration="11734000" />
     </task>
     <servers />
   </component>
