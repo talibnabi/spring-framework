@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-01-01T23:23:29.794+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/redirect_post/2"
+}

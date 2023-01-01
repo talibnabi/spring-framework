@@ -1,0 +1,14 @@
+POST http://localhost:8099/redirect_post/1
+
+<> 2023-01-01T152329.500.json
+
+###
+
+POST http://localhost:8099/redirect_post/1
+
+###
+
+POST http://localhost:8099/redirect_post/1
+
+###
+
