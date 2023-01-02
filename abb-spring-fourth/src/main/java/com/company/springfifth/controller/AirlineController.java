@@ -2,12 +2,10 @@ package com.company.springfifth.controller;
 
 
 import com.company.springfifth.model.Airline;
+import com.company.springfifth.model.AirlineCreateRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,5 +51,14 @@ public class AirlineController {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
+
+    // status: 201 - Created
+    // wrong case: ???
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public void create(@RequestBody AirlineCreateRequest rq) {
+        // service.create(rq)
+        throw new IllegalStateException("not implemented");
+    }
 
 }
