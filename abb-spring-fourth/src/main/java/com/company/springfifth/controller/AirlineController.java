@@ -103,8 +103,7 @@ public class AirlineController {
         // ...
         Optional<String> data = null; // service.delete(id)
         // ...
-        return data.map(x -> ResponseEntity.ok().build())
-                .orElseGet(() -> ResponseEntity.notFound().build());
+        return data.map(x -> ResponseEntity.ok().build()).orElseGet(() -> ResponseEntity.notFound().build());
 
 // return ResponseEntity.of(data); // 200 vs 404
 // return ResponseEntity.of(data); // 200 vs 404 - always implies body
