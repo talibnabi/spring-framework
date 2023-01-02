@@ -3,6 +3,7 @@ package com.company.springfifth.controller;
 
 import com.company.springfifth.model.Airline;
 import com.company.springfifth.model.AirlineCreateRequest;
+import com.company.springfifth.model.AirlineUpdateRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("airline")
@@ -70,5 +72,42 @@ public class AirlineController {
 //         service.create(airline)
         throw new IllegalStateException("not implemented");
     }
-    
+
+    // status: 200 - OK
+    //         404 - if id not found
+    @PutMapping("{id}")
+    public void modify(@PathVariable UUID id, @RequestBody AirlineUpdateRequest rq) {
+        // service.modify(id, rq)
+//        throw new IllegalStateException("not implemented");
+    }
+
+//    @PutMapping("{id}")
+//    public void modify2(@PathVariable UUID id, @RequestBody AirlineUpdateRequest rq) {
+//        // service.modify(id, rq)
+//        throw new IllegalStateException("not implemented");
+//    }
+
+    // status: 200 - OK
+    //         404 - if id not found
+    @PutMapping("{id}")
+    public void modify2(@PathVariable UUID id, @RequestBody Airline airline) {
+        airline.setId(id);
+        // service.modify(airline)
+        throw new IllegalStateException("not implemented");
+    }
+
+    // status: 200 - OK
+    //         404 - if id not found
+    @DeleteMapping("{id}")
+    public ResponseEntity<?> delete(@PathVariable UUID id) {
+        // ...
+        Optional<String> data = null; // service.delete(id)
+        // ...
+        return data.map(x -> ResponseEntity.ok().build())
+                .orElseGet(() -> ResponseEntity.notFound().build());
+
+// return ResponseEntity.of(data); // 200 vs 404
+// return ResponseEntity.of(data); // 200 vs 404 - always implies body
+    }
+
 }

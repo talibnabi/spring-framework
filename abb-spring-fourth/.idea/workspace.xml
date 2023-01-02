@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d589369d-72df-4d22-b690-8d876f5e7f1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springfifth/controller/AirlineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springfifth/controller/AirlineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springfifth/controller/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springfifth/controller/test.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/springfifth/controller/AirlineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/springfifth/controller/AirlineController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672615589451</updated>
       <workItem from="1672615590985" duration="614000" />
-      <workItem from="1672616602851" duration="6973000" />
+      <workItem from="1672616602851" duration="7330000" />
     </task>
     <servers />
   </component>
