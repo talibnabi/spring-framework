@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-01-02T11:05:42.689+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/airline"
+}

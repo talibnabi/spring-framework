@@ -58,7 +58,17 @@ public class AirlineController {
     @ResponseStatus(HttpStatus.CREATED)
     public void create(@RequestBody AirlineCreateRequest rq) {
         // service.create(rq)
-        throw new IllegalStateException("not implemented");
+//        throw new IllegalStateException("not implemented");
     }
 
+    // status: 201 - Created
+    // wrong case: ???
+    @PostMapping("create2")
+    @ResponseStatus(HttpStatus.CREATED)
+    public void create2(@RequestBody Airline airline) {
+        airline.setId(null); // fix to guarantee id is not provided
+//         service.create(airline)
+        throw new IllegalStateException("not implemented");
+    }
+    
 }

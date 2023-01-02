@@ -1,3 +1,42 @@
+POST http://localhost:8099/airline
+Content-Type: application/json
+
+{
+  "name": "Alisa",
+  "code": "13433434",
+  "country": "Azerbaijan"
+}
+
+<> 2023-01-02T030546.500.json
+
+###
+
+POST http://localhost:8099/airline
+Content-Type: application/json
+
+{
+  "name": "Alisa",
+  "code": "13433434",
+  "country": "Azerbaijan"
+}
+
+<> 2023-01-02T030542.500.json
+
+###
+
+POST http://localhost:8099/airline
+Content-Type: application/json
+
+{
+  "name": "Alisa",
+  "code": "13433434",
+  "country": "Azerbaijan"
+}
+
+<> 2023-01-02T030410.500.json
+
+###
+
 GET http://localhost:8099/airline?query=Anar
 
 ###

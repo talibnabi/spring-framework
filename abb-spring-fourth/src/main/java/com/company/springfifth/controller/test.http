@@ -1,1 +1,11 @@
 GET http://localhost:8099/airline?query=Anar
+
+####
+POST http://localhost:8099/airline
+Content-Type: application/json
+
+{
+  "name": "Alisa",
+  "code": "13433434",
+  "country": "Azerbaijan"
+}
