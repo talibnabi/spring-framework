@@ -1,0 +1,16 @@
+GET http://localhost:8099/airline?query=Anar
+
+###
+
+GET http://localhost:8099/airline?query=Anar
+
+<> 2023-01-01T160705.200.json
+
+###
+
+GET http://localhost:8099/airline/query=Anar
+
+<> 2023-01-01T160646.404.json
+
+###
+
