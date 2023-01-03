@@ -109,5 +109,4 @@ public class StudyingController {
         return String.format("user %s language %s got: %s", session.getId(), value, data);
     }
 
-
 }
