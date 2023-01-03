@@ -1,0 +1,32 @@
+GET http://localhost:8099/person/2
+
+<> 2023-01-03T050100.200.json
+
+###
+
+GET http://localhost:8099/person
+
+<> 2023-01-03T050030.200.json
+
+###
+
+POST http://localhost:8099/person
+Content-Type: application/json
+
+{
+  "username": "Alisa",
+  "password": "ALisa190@@@@@@"
+}
+
+###
+
+POST http://localhost:8099/person
+Content-Type: application/json
+
+{
+  "username": "Alisa",
+  "password": "ALisa190@@@@@@"
+}
+
+###
+

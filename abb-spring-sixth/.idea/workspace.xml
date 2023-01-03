@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35381f09-57d8-4544-ad9d-7f48957db55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsixth/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsixth/controller/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,16 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.test | ###2">
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/company/springsixth/controller/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | ##" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/company/springsixth/controller/test.http" index="2" requestIdentifier="##" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | ###2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/company/springsixth/controller/test.http" index="3" requestIdentifier="###2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Launcher" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="abb-spring-sixth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springsixth.Launcher" />
@@ -84,6 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test | ###2" />
+        <item itemvalue="HTTP Request.test | ##" />
+        <item itemvalue="HTTP Request.test | #1" />
         <item itemvalue="Spring Boot.Launcher" />
       </list>
     </recent_temporary>
@@ -96,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672749180709</updated>
-      <workItem from="1672749182769" duration="1257000" />
+      <workItem from="1672749182769" duration="1617000" />
     </task>
     <servers />
   </component>
