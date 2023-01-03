@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35381f09-57d8-4544-ad9d-7f48957db55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springsixth/controller/test.http" afterDir="false" />
-    </list>
+    <list default="true" id="35381f09-57d8-4544-ad9d-7f48957db55a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672749180709</updated>
-      <workItem from="1672749182769" duration="1617000" />
+      <workItem from="1672749182769" duration="1834000" />
     </task>
     <servers />
   </component>
