@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e238a9e6-d63d-41a2-a607-6238e1c85dd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/src/main/java/com/company/springseventh2/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ed8f92b0-9284-451b-a0c3-f68d56f0372d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh2/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-spring-seventh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-spring-seventh/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +35,11 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -51,7 +47,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JoisUQvRhg8G8mHd0A37G5fVuj" />
+  <component name="ProjectId" id="2JokOivucTlF8CdVAR5JMrERFqQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -63,49 +59,31 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/spring-framework/abb-spring-seventh-2/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Launcher" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="abb-spring-seventh" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springseventh.Launcher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.springseventh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Launcher" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\spring-framework\abb-spring-seventh-2\src\main\resources" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e238a9e6-d63d-41a2-a607-6238e1c85dd7" name="Changes" comment="" />
-      <created>1672751045406</created>
+      <changelist id="ed8f92b0-9284-451b-a0c3-f68d56f0372d" name="Changes" comment="" />
+      <created>1672751794635</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672751045406</updated>
-      <workItem from="1672751047929" duration="1366000" />
+      <updated>1672751794635</updated>
+      <workItem from="1672751796178" duration="695000" />
     </task>
     <servers />
   </component>
