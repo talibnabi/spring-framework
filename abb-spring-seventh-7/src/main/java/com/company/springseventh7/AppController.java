@@ -28,13 +28,7 @@ public class AppController {
     @GetMapping("books2")
     public List<com.company.springseventh7.model.ui.Book> handle2() {
         List<com.company.springseventh7.model.db.Book> books = bookRepo.findAll();
-        return books.stream()
-                .map(book ->
-                        new com.company.springseventh7.model.ui.Book(
-                                book.getId(), book.getTitle(), book.getAuthors().stream().map(a -> new com.company.springseventh7.model.ui.Author(a.getId(), a.getName())).collect(Collectors.toSet())
-                        )
-                )
-                .collect(Collectors.toList());
+        return books.stream().map(book -> new com.company.springseventh7.model.ui.Book(book.getId(), book.getTitle(), book.getAuthors().stream().map(a -> new com.company.springseventh7.model.ui.Author(a.getId(), a.getName())).collect(Collectors.toSet()))).collect(Collectors.toList());
     }
 
 }
