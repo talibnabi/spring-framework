@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84ee3f3-e713-4518-bd02-903c7c43653e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/model/db/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/model/db/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/model/db/error.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abb-spring-seventh-6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-spring-seventh-6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abb-spring-seventh-6/src/main/java/com/company/springseventh6/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-spring-seventh-6/src/main/java/com/company/springseventh6/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/AppController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672829555853</updated>
-      <workItem from="1672829557568" duration="1223000" />
+      <workItem from="1672829557568" duration="2011000" />
     </task>
     <servers />
   </component>
