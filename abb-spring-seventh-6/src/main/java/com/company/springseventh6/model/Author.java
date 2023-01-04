@@ -9,6 +9,7 @@ import java.util.Set;
 @Data
 @Entity
 public class Author {
+    //https://github.com/royclarkson/bookstore-service-broker/tree/master/src/main
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

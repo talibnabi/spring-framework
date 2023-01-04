@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace2a3ab-eda8-4408-907c-6ae5ed999e4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/src/main/java/com/company/springseventh7/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abb-spring-seventh-7/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/springseventh6/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh6/model/Author.java" afterDir="false" />
+    <list default="true" id="a84ee3f3-e713-4518-bd02-903c7c43653e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/model/db/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/model/db/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/springseventh7/model/db/error.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-spring-seventh-6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-spring-seventh-6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abb-spring-seventh-6/src/main/java/com/company/springseventh6/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abb-spring-seventh-6/src/main/java/com/company/springseventh6/model/Author.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JrF9uIzOJfsLhH58owFG9oTDra" />
+  <component name="ProjectId" id="2JrI0ez8JoJMOqDjZH81jUwt2WB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -63,10 +67,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -74,38 +74,21 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Launcher" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="abb-spring-seventh-6" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.springseventh6.Launcher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.springseventh6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Launcher" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ace2a3ab-eda8-4408-907c-6ae5ed999e4b" name="Changes" comment="" />
-      <created>1672828151295</created>
+      <changelist id="a84ee3f3-e713-4518-bd02-903c7c43653e" name="Changes" comment="" />
+      <created>1672829555853</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672828151295</updated>
-      <workItem from="1672828154608" duration="1350000" />
+      <updated>1672829555853</updated>
+      <workItem from="1672829557568" duration="1223000" />
     </task>
     <servers />
   </component>

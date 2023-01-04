@@ -1,0 +1,6 @@
+Resolved [org.springframework.http.converter.HttpMessageNotWritableException:
+Could not write JSON:
+Infinite recursion
+(StackOverflowError);
+nested exception is com.fasterxml.jackson.databind.JsonMappingException:
+Infinite recursion (StackOverflowError) (through reference chain: java.util.ArrayList[0]->app.model.Book["authors"])]
